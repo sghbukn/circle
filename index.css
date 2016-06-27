@@ -1,0 +1,369 @@
+/*代码重置start*/
+div,p,h1,h2,h3,h4,h5,h6,body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*代码重置end*/
+
+body {
+  background: #EAEDD8;
+  font-family: '微软雅黑';
+}
+
+.header {
+    width: 980px;
+    margin: 0 auto;
+    background: url(img/header.gif);
+    height: 93px;
+}
+
+.header .logo {
+    float: left;
+    padding: 20px 0 0 30px;
+    height: 39px;
+    width: 137px;
+}
+
+.header .top_link {
+    float: right;
+    height: 25px;
+    width: 115px;
+}
+
+.header p {
+    float: left;
+    font-size: 11px;
+    color: #c2c2c2;
+    padding: 35px 0 0 45px;
+}
+
+.header span {
+    background: #9D0303;
+    color: #fff;
+    height: 20px;
+}
+
+.nav {
+    width: 940px;
+    height: 34px;
+    background: url(img/nav_bg.gif) 0 0 repeat-x;
+    margin: 0 auto;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.nav li {
+    float: left;
+    background: url(img/nav_div.gif) top right no-repeat;
+    padding: 0 8px 0 0;
+}
+
+.nav li a {
+    color: #1B1B3F;
+    font: bold 11px/34px Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 10px;
+}
+
+.nav li a:hover {
+    color: #fff;
+    background: #9D0303;
+}
+
+.main {
+    width: 980px;
+    height: 550px;
+    box-shadow: 0px 5px 0px #eaeaea;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.main .left {
+    float: left;
+    width: 437px;
+    height: 550px;
+    padding: 20px 0 0 35px;
+    background: url(img/left_panel_bg.gif) 300px 200px no-repeat;
+}
+
+.main .welcome {
+    background: url(img/welcome_div.gif) left bottom repeat-x;
+}
+
+.welcome h2 {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+.left .last {
+    width: 280px;
+    padding-top: 30px;
+}
+
+.left .green {
+    color: #637704;
+    font-weight: bold;
+}
+
+.left p {
+    padding: 12px 0;
+    font-size: 12px;
+    color: #7A7A79;
+}
+
+.left h6 {
+    color: #9D0303;
+    padding-left: 0;
+}
+
+.left .last h2 {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+.read_more {
+    background: url(img/read_more.gif) no-repeat;
+    display: block;
+    width: 60px;
+    height: 15px;
+    margin: -8px 0 0 200px;
+}
+
+.read_more:hover {
+    background: url(img/read_more_hover.gif) no-repeat;
+}
+
+.right {
+    float: right;
+    width: 490px;
+    height: 500px;
+    padding: 8px 2px 0 0;
+}
+
+.right .services {
+    width: 236px;
+    color: #fff;
+    background: url(img/latest_service_bg.gif) repeat-x;
+    float: left;
+    margin-right: 11px;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 10px;
+}
+
+.right .services h3,h6 {
+    padding: 10px 0 0 20px;
+}
+
+.right .services img {
+    float: left;
+    display: block;
+    width: 81px;
+    padding: 20px 0 0 20px;
+}
+
+.right .services ul {
+    float: right;
+    list-style: url('img/arrow.gif');
+    padding: 0 20px 0 0;
+    line-height: 15px;
+}
+
+.right .services ul li a {
+    color: #fff;
+    font-size: 11px;
+}
+
+.right .services ul li a:hover {
+    background-color: #8DA909;
+}
+
+.right .questions {
+    width: 236px;
+    color: #fff;
+    background: url(img/question_bg.gif) repeat-x;
+    float: left;
+    border-radius: 0px 0px 8px 8px;    
+}
+
+.right .questions h3,h6 {
+    padding: 10px 0 0 20px;
+}
+
+.right .questions img {
+    float: left;
+    display: block;
+    width: 81px;
+    padding: 20px 0 0 20px;
+}
+
+.right .questions ul {
+    float: right;
+    list-style: url('img/arrow.gif');
+    padding: 0 20px 0 0;
+    line-height: 15px;
+}
+
+.right .questions ul li a {
+    color: #fff;
+    font-size: 11px;
+}
+
+.right .questions ul li a:hover {
+    background-color: #D4950C;
+}
+
+.right .login {
+    width: 236px;
+    background: url(img/member_login_bg.gif) repeat-x;
+    float: left;
+    margin-right: 11px;
+    padding-bottom: 16px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.right .login h3 {
+    padding: 10px 0 0 20px;
+}
+
+.right .login .btn {
+    color: #9D0303;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right .login .btn:hover {
+    text-decoration: underline;
+}
+
+.right .login form {
+    width: 188px;
+    padding: 0 25px 0 24px;
+}
+
+.right .login form input.chk {
+    width: 13px;
+    height: 13px;
+    margin: 8px 15px 0 0;
+    float: left;
+}
+
+.right .login form input.txtBox {
+    width: 187px;
+    height: 25px;
+    border-bottom: #D4D0C8 solid 1px;
+    border-right: #D4D0C8 solid 1px;
+    border-left: #404040 solid 1px;
+    border-top: #404040 solid 1px;
+    float: left;
+}
+
+.right .login form label {
+    display: block;
+    font: normal 11px/22px Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.right .direction {
+    width: 236px;
+    color: #fff;
+    background: url(img/direction_bg.gif) repeat-x;
+    float: left;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.right .direction h3,h6 {
+    padding: 10px 0 0 20px;
+}
+
+.right .direction img {
+    float: left;
+    display: block;
+    width: 81px;
+    padding: 20px 0 0 20px;
+}
+
+.right .direction ul {
+    float: right;
+    list-style:square inside url('img/arrow.gif');
+    padding: 0 20px 0 0;
+    line-height: 15px;
+}
+
+.right .direction ul li a {
+    color: #fff;
+    font-size: 11px;
+}
+
+.right .direction ul li a:hover {
+    background-color: #51C3D9;
+}
+
+section {
+    position: absolute;
+    bottom: 8px;
+    left: 490px;
+}
+
+section h4 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    width: 250px;
+}
+
+section p {
+    font-size: 11px;
+    width: 450px;
+    color: #8F8E90;
+}
+
+section a.email {
+    color: #1E95DD;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section a.email:hover {
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+footer .copyright {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+footer .des {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: #0F6B92;
+    font-weight: bold;
+}
+
+footer .des a {
+    color: #0F6B92;
+    text-decoration: underline;
+}
+
+footer .des a:hover {
+    text-decoration: none;
+}
